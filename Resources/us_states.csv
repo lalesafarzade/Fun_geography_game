@@ -1,0 +1,51 @@
+States,abbreviation,x,y,num
+Alabama,AL,264,-179,1
+Alaska,AK,-424,-308,2
+Arizona,AZ,-335,-100,3
+Arkansas,AR,134,-128,4
+California,CA,-514,5,5
+Colorado,CO,-191,16,6
+Connecticut,CT,576,139,7
+Delaware,DE,543,37,8
+Florida,FL,426,-299,9
+Georgia,GA,370,-174,10
+Hawaii,HI,-150,-393,11
+Idaho,ID,-347,191,12
+Illinois,IL,215,31,13
+Indiana,IN,280,37,14
+Iowa,IA,89,98,15
+Kansas,KS,13,-7,16
+Kentucky,KY,292,-37,17
+Louisiana,LA,140,-227,18
+Maine,ME,610,269,19
+Maryland,MD,546,12,20
+Massachusetts,MA,596,169,21
+Michigan,MI,310,134,22
+Minnesota,MN,84,235,23
+Mississippi,MS,211,-194,24
+Missouri,MO,117,-17,25
+Montana,MT,-259,274,26
+Nebraska,NE,-59,89,27
+Nevada,NV,-457,84,28
+New Hampshire,NH,585,203,29
+New Jersey,NJ,548,84,30
+New Mexico,NM,-234,-109,31
+New York,NY,500,167,32
+North Carolina,NC,461,-78,33
+North Dakota,ND,-49,276,34
+Ohio,OH,348,54,35
+Oklahoma,OK,-2,-100,36
+Oregon,OR,-506,229,37
+Pennsylvania,PA,463,90,38
+Rhode Island,RI,603,139,39
+South Carolina,SC,426,-131,40
+South Dakota,SD,-49,174,41
+Tennessee,TN,293,-94,42
+Texas,TX,-62,-219,43
+Utah,UT,-332,45,44
+Vermont,VT,556,215,45
+Virginia,VA,462,-14,46
+Washington,WA,-465,322,47
+West Virginia,WV,409,20,48
+Wisconsin,WI,168,177,49
+Wyoming,WY,-213,148,50
