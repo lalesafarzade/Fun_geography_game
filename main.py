@@ -36,12 +36,12 @@ for j in random_num:
     if answer_state=="exit".title():
         break
 
-    if int(answer_state)==df.iloc[j,4]:
+    elif int(answer_state)==df.iloc[j,4]:
         guessed_states.append(answer_state)
         t=turtle.Turtle()
         t.hideturtle()
         t.penup()
-        t.color("white")
+        t.color("brown4")
         t.goto(df.iloc[j,2]-10,df.iloc[j,3]-10)
         t.write(df.iloc[j,1])
 
