@@ -34,11 +34,11 @@ correct_states=[]
 
 
 for j in random_num:
-    answer_state = screen.textinput(title=f"{len(Currect_number)}/50 correct" , prompt=f"what's the number of state {df.iloc[j,0]}")
+    answer_state = screen.textinput(title=f"{len(Currect_number)}/50 correct" , prompt=f"What's the number of state {df.iloc[j,0]}")
     if answer_state=="exit":
         Currect_number.append(answer_state)
         correct_states.append(df.iloc[j,0])
-        mes_exit=screen.textinput(title=f"{len(Currect_number)}/50 correct" , prompt=f"oh,come on! you can do it!Do you want a screenshot of your attempt?y/n")
+        mes_exit=screen.textinput(title=f"{len(Currect_number)}/50 correct" , prompt=f"Do you want a screenshot of your attempt? y/n")
         if mes_exit=="y":
             incorrect_data=[i for i in all_states if i not in correct_states]
             pd.DataFrame(incorrect_data).to_csv("incorrect_state.csv")
@@ -57,10 +57,10 @@ for j in random_num:
         
         
 if len(Currect_number)==50:
-    congrat_=screen.textinput(title=f"{len(Currect_number)}/50 correct" , prompt=f"Congradulation!You nailed it! Do you want a screenshot of your attempt?y/n ")
+    congrat_=screen.textinput(title=f"{len(Currect_number)}/50 correct" , prompt=f"Congradulation! You nailed it! Do you want to know what state you missed? y/n ")
 
 elif len(Currect_number)>=40:
-    congrat_mes=screen.textinput(title=f"{len(Currect_number)}/50 correct" , prompt=f"Congradulation!You almost nailed it! Do you want to know what state you missed?y/n ")
+    congrat_mes=screen.textinput(title=f"{len(Currect_number)}/50 correct" , prompt=f"Congradulation! You almost nailed it! Do you want to know what state you missed?y/n ")
     if congrat_mes=="y":
         incorrect_data=[i for i in all_states if not i in correct_states]
         pd.DataFrame(incorrect_data).to_csv("incorrect_state.csv")
