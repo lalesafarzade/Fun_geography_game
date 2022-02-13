@@ -1,9 +1,11 @@
+from tkinter.font import BOLD
 import turtle
 import pandas as pd
 import os
 import random
 
 screen=turtle.Screen()
+screen.setup(1500, 900)
 screen.title("U.S.Screenshot Game")
 image=os.path.join("images","us_map.gif")
 
@@ -51,9 +53,9 @@ for j in random_num:
             t=turtle.Turtle()
             t.hideturtle()
             t.penup()
-            t.color("brown4")
+            t.color("deep pink")
             t.goto(df.iloc[j,2]-10,df.iloc[j,3]-10)
-            t.write(df.iloc[j,1])
+            t.write(df.iloc[j,1],font=BOLD)
         
         
 if len(Currect_number)==50:
